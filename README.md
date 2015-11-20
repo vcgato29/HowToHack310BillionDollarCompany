@@ -4,7 +4,7 @@ HowToHack310BillionDollarCompany
 
 Well again big guys with bad security practices, this time Amazon AWS S3 service.
 
-The problem is the following, Amazon implements since SDK 2.2.5 to 2.2.8 for Android the class CognitoCachingCredentialsProvider, this class was created for an type of authentication, but this authentication is very insecure, uses an context, to get the package name, identityPoolId and region; With this insecure authentication you can get, put, modify, delete and list bucket's and files in all S3; Only need extract the identityPoolId and create a fake app with the same package name of the original app, and ready !!!
+The problem is the following, Amazon implements since SDK 2.2.5 to 2.2.8 for Android the class <b>CognitoCachingCredentialsProvider</b>, this class was created for an type of authentication, but this authentication is very insecure, uses an context, to get the package name, identityPoolId and region; With this insecure authentication you can get, put, modify, delete and list bucket's and files in all S3; Only need extract the identityPoolId and create a fake app with the same package name of the original app, and ready !!!
 
 Example: 
 
