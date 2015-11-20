@@ -14,7 +14,7 @@ Create fake apps and disassembly this, is really simple and easy, any guy can do
 
 [HowToHack85MillonDolarsCompany](https://github.com/JhetoX/HowToHack85MillonDolarsCompany)<br/>
 
-This test are do with data extracted from iOS App and with this data was created fake Android App, the problem always it, store keys on client side, this is insecure prectice.<br/><br/><br/>
+This test are do with data extracted from iOS App and with this data was created fake Android App, the problem always it, store keys on client side, this is insecure practice.<br/><br/><br/>
 
 
 This security flaw was discover by me: Jheto Xekri
