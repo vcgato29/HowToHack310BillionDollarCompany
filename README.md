@@ -8,7 +8,9 @@ The problem is the following, Amazon implements since SDK 2.2.5 to 2.2.8 for And
 
 this class was created for an type of authentication, but this authentication is very insecure, uses an context, to get the package name, identityPoolId and region; With this insecure authentication you can get, put, modify, delete and list bucket's and files in all S3; Only need extract the identityPoolId and crate a fake app with the same package name of the original app, and ready !!!
 
-Example: new CognitoCachingCredentialsProvider(context,"us-east-1:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx", Regions.US_EAST_1);
+Example: 
+
+new CognitoCachingCredentialsProvider(context,"us-east-1:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx", Regions.US_EAST_1);
 
 Create fake apps and disassembly this, is really simple and easy, any guy can do it, you can see my old hack
 
